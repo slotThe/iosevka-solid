@@ -2,7 +2,8 @@
 family = "Iosevka Custom"
 spacing = "normal"
 serifs = "sans"
-# no-cv-ss = true
+export-glyph-names = false
+no-cv-ss = false
 
 [buildPlans.iosevka-custom.variants]
 inherits = "ss08"
@@ -15,12 +16,12 @@ capital-g = "toothed-serifless-capped"
 capital-i = "serifed"
 capital-j = "serifed"
 capital-k = "curly-serifless"
-capital-m = "hanging"
-capital-n = "standard"
+capital-m = "hanging-serifless"
+capital-n = "standard-serifless"
 capital-q = "crossing"
-capital-r = "curly"
-capital-u = "toothless-rounded"
-capital-v = "straight"
+capital-r = "curly-serifless"
+capital-u = "toothless-rounded-serifless"
+capital-v = "straight-serifless"
 capital-z = "straight-serifless"
 a = "double-storey-serifless"
 f = "serifless"
@@ -28,15 +29,14 @@ g = "double-storey-open"
 i = "serifed-flat-tailed"
 j = "serifed"
 l = "serifed-flat-tailed"
-m = "short-leg"
-v = "straight"
-y = "curly"
-eszet = "longs-s-lig"
-turn-v = "straight"
+m = "short-leg-serifless"
+v = "straight-serifless"
+y = "curly-serifless"
+eszet = "longs-s-lig-serifless"
 lower-delta = "rounded"
 capital-gamma = "serifless"
 lower-lambda = "straight-turn"
-lower-mu = "tailed"
+lower-mu = "tailed-serifless"
 zero = "slashed"
 one = "base"
 two = "curly-neck"
@@ -65,7 +65,7 @@ diacritic-dot = "round"
 inherits = "haskell"
 
 [buildPlans.iosevka-custom.metric-override]
-leading = 1400
+leading = 1500
 
 [[buildPlans.iosevka-custom.compatibility-ligatures]]
 unicode = 57600 # 0xe100

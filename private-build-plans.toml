@@ -1,14 +1,15 @@
-[buildPlans.iosevka-custom]
-family = "Iosevka Custom"
+[buildPlans.iosevka-solid]
+family = "Iosevka Solid"
 spacing = "normal"
 serifs = "sans"
 export-glyph-names = false
-no-cv-ss = false
+noCvSs = true
+noLigation = true
 
-[buildPlans.iosevka-custom.variants]
+[buildPlans.iosevka-solid.variants]
 inherits = "ss08"
 
-[buildPlans.iosevka-custom.variants.design]
+[buildPlans.iosevka-solid.variants.design]
 capital-a = "curly-serifless"
 capital-d = "more-rounded-serifless"
 capital-f = "serifless"
@@ -39,8 +40,8 @@ lower-lambda = "straight-turn"
 lower-mu = "tailed-serifless"
 zero = "slashed"
 one = "base"
-two = "curly-neck"
-four = "closed"
+two = "straight-neck-serifless"
+four = "semi-open-serifless"
 six = "open-contour"
 seven = "bend-serifless"
 eight = "crossing"
@@ -61,158 +62,11 @@ lig-ltgteq = "slanted"
 punctuation-dot = "round"
 diacritic-dot = "round"
 
-[buildPlans.iosevka-custom.ligations]
-inherits = "haskell"
+[buildPlans.iosevka-solid.variants.italic]
+two = "curly-neck-serifless"
+four = "closed-serifless"
+six = "closed-contour"
+nine = "closed-contour"
 
-[buildPlans.iosevka-custom.metric-override]
+[buildPlans.iosevka-solid.metricOverride]
 leading = 1500
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57600 # 0xe100
-featureTag = 'XALL'
-sequence = "<->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57601 # 0xe101
-featureTag = 'XALL'
-sequence = "<-->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57605 # 0xe105
-featureTag = 'XALL'
-sequence = "<=>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57606 # 0xe106
-featureTag = 'XALL'
-sequence = "<==>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57655 # 0xe137
-featureTag = 'XALL'
-sequence = "<-"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57657 # 0xe139
-featureTag = 'XALL'
-sequence = "->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57670 # 0xe146
-featureTag = 'XALL'
-sequence = "::"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57676 # 0xe14c
-featureTag = 'XALL'
-sequence = "->>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57682 # 0xe152
-featureTag = 'XALL'
-sequence = "-->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57685 # 0xe155
-featureTag = 'XALL'
-sequence = "-->>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57697 # 0xe161
-featureTag = 'XALL'
-sequence = "=>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57706 # 0xe16a
-featureTag = 'XALL'
-sequence = "==>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57730 # 0xe182
-featureTag = 'XALL'
-sequence = "<--"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57745 # 0xe191
-featureTag = 'XALL'
-sequence = "<="
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57754 # 0xe19a
-featureTag = 'XALL'
-sequence = "<=="
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57769 # 0xe1a9
-featureTag = 'XALL'
-sequence = ">=>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57770 # 0xe1aa
-featureTag = 'XALL'
-sequence = ">->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57771 # 0xe1ab
-featureTag = 'XALL'
-sequence = ">-->"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57772 # 0xe1ac
-featureTag = 'XALL'
-sequence = ">==>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57773 # 0xe1ad
-featureTag = 'XALL'
-sequence = "<=<"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57774 # 0xe1ae
-featureTag = 'XALL'
-sequence = "<-<"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57775 # 0xe1af
-featureTag = 'XALL'
-sequence = "<--<"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57776 # 0xe1b0
-featureTag = 'XALL'
-sequence = "<==<"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57783 # 0xe1b7
-featureTag = 'XALL'
-sequence = ":="
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57786 # 0xe1ba
-featureTag = 'XALL'
-sequence = "=:"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57797 # 0xe1c5
-featureTag = 'XALL'
-sequence = "/="
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57799 # 0xe1c7
-featureTag = 'XALL'
-sequence = "/\\"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57800 # 0xe1c8
-featureTag = 'XALL'
-sequence = "\\/"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57805 # 0xe1cc
-featureTag = 'XALL'
-sequence = ">~>"
-
-[[buildPlans.iosevka-custom.compatibility-ligatures]]
-unicode = 57806 # 0xe1cc
-featureTag = 'XALL'
-sequence = "<~>"

@@ -7,7 +7,7 @@ noCvSs = true
 noLigation = true
 
 [buildPlans.iosevka-solid.variants]
-inherits = "ss08"
+inherits = "ss15"
 
 [buildPlans.iosevka-solid.variants.design]
 capital-a = "curly-serifless"
@@ -80,6 +80,8 @@ two = "curly-neck-serifless"
 four = "closed-serifless"
 six = "closed-contour"
 nine = "closed-contour"
+k = "cursive-serifless"
+x = "chancery"
 
 [buildPlans.iosevka-solid.metricOverride]
-leading = 1500
+leading = 1400

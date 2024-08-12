@@ -81,7 +81,7 @@ two = "curly-neck-serifless"
 four = "closed-serifless"
 six = "closed-contour"
 nine = "closed-contour"
-k = "cursive-serifless"
+k = "symmetric-touching-serifless"
 x = "chancery"
 
 [buildPlans.iosevka-solid.metricOverride]

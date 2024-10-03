@@ -1,6 +1,6 @@
 # iosevka-solid
 
-- Current target: [bc4c4147](https://github.com/be5invis/Iosevka/commit/bc4c41478459f15495dd02a20a46a1828d0eb7da)
+- Current target: [d63e3630](https://github.com/be5invis/Iosevka/commit/d63e3630c70831b1ba0b3568aa4e12c11d4f3d01)
 
 This is my personal build of Iosevka.
 The build files are included, though I don't really expect anyone else to use it.
